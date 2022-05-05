@@ -1,4 +1,21 @@
+html {
+  width: 100%;
+  height: 100%;
+}
 body {
-  background: steelblue;
-  color: white;
+  padding: 0;
+  margin: 0;
+  background: white;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.custom-dot-list-style li button {
+  background: #d5d5d5;
+  border: none;
+}
+
+.react-multi-carousel-dot--active button {
+  background: black !important;
 }
